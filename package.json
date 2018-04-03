@@ -1,0 +1,13 @@
+{
+  "name": "Pics",
+  "version": "1.0.0",
+  "description": "Electron app to visualize photos",
+  "main": "index.js",
+  "repository": "https://github.com/miguelopezv/Pics",
+  "author": "Miguel López <miguelopezv@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "electron": "^1.8.4"
+  }
+}
