@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Volumes/Miguel/Desktop/Pics"
+		}
+	],
+    "SublimeLinter":
+    {
+        "linters":
+        {
+            "jshint": {
+                "disable": true
+            }
+        }
+    }
+}
