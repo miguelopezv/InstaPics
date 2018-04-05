@@ -4,16 +4,20 @@
   "description": "Electron app to visualize photos",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=develop electron src/index.js"
+    "dev": "NODE_ENV=develop electron src/index.js",
+    "lint": "standard"
   },
   "repository": "https://github.com/miguelopezv/Pics",
   "author": "Miguel López <miguelopezv@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "electron-compile": "^6.4.2"
+    "electron-compile": "^6.4.2",
+    "electron-debug": "^1.5.0"
   },
   "devDependencies": {
-    "electron-prebuilt-compile": "^1.8.4"
+    "devtron": "^1.4.0",
+    "electron-prebuilt-compile": "^1.8.4",
+    "standard": "^11.0.1"
   }
 }
