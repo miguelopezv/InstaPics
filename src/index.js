@@ -1,4 +1,3 @@
-
 'use strict'
 
 import { app, BrowserWindow } from 'electron'
@@ -29,7 +28,7 @@ app.on('ready', () => {
 
   // This will log the position of the window everytime it's moving
   win.on('move', () => {
-    const position = win.getPosition()
+    // const position = win.getPosition()
     // console.log(`La posición es ${position}`)
   })
 
