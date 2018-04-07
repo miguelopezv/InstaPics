@@ -1,15 +1,21 @@
 'use strict'
 
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow, ipcMain, dialog } from 'electron'
 import devtools from './devtools'
+import isImage from 'is-image'
+import fs from 'fs'
+import path from 'path'
+import filesize from 'filesize'
 
 if (process.env.NODE_ENV === 'develop') {
   devtools()
 }
 
+let win
+
 // All that is going to happen when the window is ready with the config
 app.on('ready', () => {
-  let win = new BrowserWindow({
+  win = new BrowserWindow({
     show: false,
     width: 800,
     height: 600,
@@ -42,4 +48,29 @@ app.on('ready', () => {
 // Code to run just before quit
 app.on('before-quit', () => {
   console.log('Saliendo')
+})
+
+ipcMain.on('open-directory', (event) => {
+  dialog.showOpenDialog(win, {
+    title: 'select location',
+    buttonLabel: 'Open',
+    properties: ['openDirectory']
+  },
+  (dir) => {
+    const images = [];
+    if (dir) {
+      fs.readdir(dir[0], (err, files) => {
+        if (err) throw err
+        files.forEach(f => {
+          if (isImage(f)) {
+            let imageFile = path.join(dir[0], f)
+            let stats = fs.statSync(imageFile)
+            let size = filesize(stats.size, {round: 0})
+            images.push({filename: f, src: `file://${imageFile}`, size: size})
+          }
+        })
+        event.sender.send('load-images', images)
+      })
+    }
+  })
 })

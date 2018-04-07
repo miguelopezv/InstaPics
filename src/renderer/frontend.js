@@ -1,15 +1,29 @@
 import url from 'url'
 import path from 'path'
 import applyFilter from './filters'
+import { setIpc, openDirectory } from './ipcRendererEvents'
 
 window.addEventListener('load', () => {
   setIpc()
   addImagesEvents()
   searchImagesEvent()
   selectedFilterEvent()
+  buttonEvent('open-dir', openDirectory)
 })
 
-// Add event 'click' to all images
+/**
+ * Adds a event to a button
+ * @param  {string} id   Id of the element
+ * @param  {function} func function to use as callback
+ */
+function buttonEvent (id, func) {
+  const opendir = document.getElementById(id)
+  opendir.addEventListener('click', func)
+}
+
+/**
+ * Add click event to all images
+ */
 function addImagesEvents () {
   const thumbs = document.querySelectorAll('li.list-group-item')
 
@@ -20,7 +34,9 @@ function addImagesEvents () {
   })
 }
 
-// Apply filters to photos using an imported function
+/**
+ * Apply filter to image
+ */
 function selectedFilterEvent () {
   const selected = document.getElementById('filters')
 
@@ -29,7 +45,10 @@ function selectedFilterEvent () {
   })
 }
 
-// change image for the one clicked
+/**
+ * set selected image
+ * @param  {} node the element to set as selected
+ */
 function changeImage (node) {
   if (node) {
     document.querySelector('li.selected').classList.remove('selected')
@@ -41,7 +60,9 @@ function changeImage (node) {
   }
 }
 
-// function for searchBox
+/**
+ * Function to filter images
+ */
 function searchImagesEvent () {
   const searchBox = document.getElementById('search-box')
 
@@ -67,7 +88,9 @@ function searchImagesEvent () {
   })
 }
 
-// Select first image to be displayed after filtered
+/**
+ * Select first image from the array
+ */
 function selectFirstImage () {
   const image = document.querySelector('li.list-group-item:not(.hidden)')
   changeImage(image)
