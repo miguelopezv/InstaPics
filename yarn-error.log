@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/9.10.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js run lint
+  /usr/local/Cellar/node/9.10.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js run lint --fix
 
 PATH: 
   /Volumes/Miguel/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands
@@ -29,7 +29,9 @@ npm manifest:
     "private": false,
     "dependencies": {
       "electron-compile": "^6.4.2",
-      "electron-debug": "^1.5.0"
+      "electron-debug": "^1.5.0",
+      "filesize": "^3.6.1",
+      "is-image": "^2.0.0"
     },
     "devDependencies": {
       "devtron": "^1.4.0",
@@ -1883,6 +1885,10 @@ Lockfile:
       flat-cache "^1.2.1"
       object-assign "^4.0.1"
   
+  filesize@^3.6.1:
+    version "3.6.1"
+    resolved "https://registry.yarnpkg.com/filesize/-/filesize-3.6.1.tgz#090bb3ee01b6f801a8a8be99d31710b3422bb317"
+  
   find-root@^1.0.0:
     version "1.1.0"
     resolved "https://registry.yarnpkg.com/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
@@ -2199,6 +2205,10 @@ Lockfile:
     version "3.3.7"
     resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.7.tgz#612289bfb3c220e186a58118618d5be8c1bab021"
   
+  image-extensions@^1.0.1:
+    version "1.1.0"
+    resolved "https://registry.yarnpkg.com/image-extensions/-/image-extensions-1.1.0.tgz#b8e6bf6039df0056e333502a00b6637a3105d894"
+  
   image-size@~0.5.0:
     version "0.5.5"
     resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
@@ -2302,6 +2312,12 @@ Lockfile:
   is-fullwidth-code-point@^2.0.0:
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
+  
+  is-image@^2.0.0:
+    version "2.0.0"
+    resolved "https://registry.yarnpkg.com/is-image/-/is-image-2.0.0.tgz#454c9569578de31869371fbfaea4958f461b3e0c"
+    dependencies:
+      image-extensions "^1.0.1"
   
   is-path-cwd@^1.0.0:
     version "1.0.0"
@@ -4301,7 +4317,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c standard
+  Arguments: -c standard --fix
   Directory: /Volumes/Miguel/Desktop/Pics
   Output:
   

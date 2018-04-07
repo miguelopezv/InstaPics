@@ -13,7 +13,9 @@
   "private": false,
   "dependencies": {
     "electron-compile": "^6.4.2",
-    "electron-debug": "^1.5.0"
+    "electron-debug": "^1.5.0",
+    "filesize": "^3.6.1",
+    "is-image": "^2.0.0"
   },
   "devDependencies": {
     "devtron": "^1.4.0",
