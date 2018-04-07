@@ -57,7 +57,7 @@ ipcMain.on('open-directory', (event) => {
     properties: ['openDirectory']
   },
   (dir) => {
-    const images = [];
+    const images = []
     if (dir) {
       fs.readdir(dir[0], (err, files) => {
         if (err) throw err
