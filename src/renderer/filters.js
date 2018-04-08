@@ -1,5 +1,10 @@
 import fs from 'fs-extra'
 
+/**
+ * Apply filter to the image
+ * @param  {string} filter       name of the filter to apply
+ * @param  {string} currentImage src of the image
+ */
 function applyFilter (filter, currentImage) {
     let imgObj = new Image() // eslint-disable-line
   imgObj.src = currentImage.dataset.original
@@ -9,6 +14,11 @@ function applyFilter (filter, currentImage) {
     .renderHtml(currentImage)
 }
 
+/**
+ * saveImage in destination folder
+ * @param  {string}   filename src of the image
+ * @param  {Function} callback function used as callback
+ */
 function saveImage (filename, callback) {
   let fileSrc = unescape(document.getElementById('image-displayed').src)
   if (fileSrc.indexOf(';base64,') != -1) {

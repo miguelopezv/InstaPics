@@ -17,7 +17,7 @@ function addImagesEvents () {
 
 /**
  * set selected image
- * @param  {} node the element to set as selected
+ * @param {} node the element to set as selected
  */
 function changeImage (node) {
   if (node) {

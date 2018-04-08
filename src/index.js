@@ -33,12 +33,6 @@ app.on('ready', () => {
   // Content to be loaded inside the window
   win.loadURL(`file://${__dirname}/renderer/index.html`)
 
-  // This will log the position of the window everytime it's moving
-  win.on('move', () => {
-    // const position = win.getPosition()
-    // console.log(`La posición es ${position}`)
-  })
-
   // When the window is closed, the variable is emptied and executes code after quit
   win.on('closed', () => {
     win = null

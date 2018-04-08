@@ -4,6 +4,10 @@ import fs from 'fs'
 import path from 'path'
 import filesize from 'filesize'
 
+/**
+ * Define events to listen
+ * @param {object} win reference to the window
+ */
 function setIpcMain (win) {
   ipcMain.on('open-directory', (event) => {
     dialog.showOpenDialog(win, {

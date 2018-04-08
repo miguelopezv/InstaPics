@@ -1,5 +1,9 @@
 import { app, dialog } from 'electron'
 
+/**
+ * Relaunch the app
+ * @param  {object} win reference to the window
+ */
 function relaunchApp (win) {
   dialog.showMessageBox(win, {
     type: 'error',
@@ -11,6 +15,10 @@ function relaunchApp (win) {
   })
 }
 
+/**
+ * Setup different type of errors
+ * @param  {object} win reference to the window
+ */
 function setupErrors (win) {
   win.webContents.on('crashed', () => {
     relaunchApp(win)

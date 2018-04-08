@@ -1,4 +1,4 @@
-import { ipcRenderer } from 'electron'
+import { ipcRenderer, remote } from 'electron'
 import { addImagesEvents, selectFirstImage, clearImages, loadImages } from './images-ui'
 import { saveImage } from './filters'
 import path from 'path'
@@ -29,6 +29,31 @@ function openDirectory () {
   ipcRenderer.send('open-directory')
 }
 
+/**
+ * open preferences window from the renderer instead of the IpcMain
+ */
+function openPreferences () {
+  const BrowserWindow = remote.BrowserWindow
+
+  const preferenceswindow = new BrowserWindow({
+    width: 400,
+    height: 300,
+    title: 'Preferences',
+    center: true,
+    modal: true,
+    frame: false,
+    show: false
+  })
+
+  preferenceswindow.show()
+}
+
+/**
+ * shows dialog depending on the situation
+ * @param  {string} type  type of message
+ * @param  {string} title title of the window
+ * @param  {string} msg   description of the message
+ */
 function showDialog (type, title, msg) {
   ipcRenderer.send('show-dialog', {type: type, title: title, message: msg})
 }
@@ -46,5 +71,6 @@ module.exports = {
   openDirectory: openDirectory,
   setIpc: setIpc,
   saveFile: saveFile,
-  showDialog: showDialog
+  showDialog: showDialog,
+  openPreferences: openPreferences
 }
