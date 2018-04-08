@@ -9,11 +9,11 @@ if (process.env.NODE_ENV === 'develop') {
   devtools()
 }
 
-let win
+global.win //eslint-disable-line
 
 // All that is going to happen when the window is ready with the config
 app.on('ready', () => {
-  win = new BrowserWindow({
+  global.win = new BrowserWindow({
     show: false,
     width: 800,
     height: 600,
@@ -22,20 +22,20 @@ app.on('ready', () => {
     maximizable: false
   })
 
-  handleErrors(win)
-  setIpcMain(win)
+  handleErrors(global.win)
+  setIpcMain(global.win)
 
   // this will run one time, when window is ready to show
-  win.once('ready-to-show', () => {
-    win.show()
+  global.win.once('ready-to-show', () => {
+    global.win.show()
   })
 
   // Content to be loaded inside the window
-  win.loadURL(`file://${__dirname}/renderer/index.html`)
+  global.win.loadURL(`file://${__dirname}/renderer/index.html`)
 
   // When the window is closed, the variable is emptied and executes code after quit
-  win.on('closed', () => {
-    win = null
+  global.win.on('closed', () => {
+    global.win = null
     app.quit()
   })
 })
