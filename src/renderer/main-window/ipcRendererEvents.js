@@ -34,8 +34,9 @@ function openDirectory () {
  */
 function openPreferences () {
   const BrowserWindow = remote.BrowserWindow
+  const mainWindow = remote.getGlobal('win')
 
-  const preferenceswindow = new BrowserWindow({
+  const preferencesWindow = new BrowserWindow({
     width: 400,
     height: 300,
     title: 'Preferences',
@@ -45,7 +46,12 @@ function openPreferences () {
     show: false
   })
 
-  preferenceswindow.show()
+  preferencesWindow.setParentWindow(mainWindow)
+  preferencesWindow.once('ready-to-show', () => {
+    preferencesWindow.show()
+    preferencesWindow.focus()
+  })
+  preferencesWindow.loadURL(`file://${path.join(__dirname, '..')}/preferences.html`)
 }
 
 /**

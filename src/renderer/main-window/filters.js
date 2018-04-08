@@ -21,7 +21,7 @@ function applyFilter (filter, currentImage) {
  */
 function saveImage (filename, callback) {
   let fileSrc = unescape(document.getElementById('image-displayed').src)
-  if (fileSrc.indexOf(';base64,') != -1) {
+  if (fileSrc.indexOf(';base64,') !== -1) {
     fileSrc = fileSrc.replace(/^data:([A-Za-z-+/]+);base64,/, '')
     fs.writeFile(filename, fileSrc, 'base64', callback)
   } else {
