@@ -1,11 +1,9 @@
 'use strict'
 
-import { app, BrowserWindow, ipcMain, dialog } from 'electron'
+import { app, BrowserWindow } from 'electron'
 import devtools from './devtools'
-import isImage from 'is-image'
-import fs from 'fs'
-import path from 'path'
-import filesize from 'filesize'
+import handleErrors from './handleErrors'
+import setIpcMain from './ipcMainEvents'
 
 if (process.env.NODE_ENV === 'develop') {
   devtools()
@@ -23,6 +21,9 @@ app.on('ready', () => {
     center: true,
     maximizable: false
   })
+
+  handleErrors(win)
+  setIpcMain(win)
 
   // this will run one time, when window is ready to show
   win.once('ready-to-show', () => {
@@ -48,29 +49,4 @@ app.on('ready', () => {
 // Code to run just before quit
 app.on('before-quit', () => {
   console.log('Saliendo')
-})
-
-ipcMain.on('open-directory', (event) => {
-  dialog.showOpenDialog(win, {
-    title: 'select location',
-    buttonLabel: 'Open',
-    properties: ['openDirectory']
-  },
-  (dir) => {
-    const images = []
-    if (dir) {
-      fs.readdir(dir[0], (err, files) => {
-        if (err) throw err
-        files.forEach(f => {
-          if (isImage(f)) {
-            let imageFile = path.join(dir[0], f)
-            let stats = fs.statSync(imageFile)
-            let size = filesize(stats.size, {round: 0})
-            images.push({filename: f, src: `file://${imageFile}`, size: size})
-          }
-        })
-        event.sender.send('load-images', images)
-      })
-    }
-  })
 })

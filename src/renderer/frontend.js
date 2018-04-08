@@ -1,4 +1,4 @@
-import { setIpc, openDirectory } from './ipcRendererEvents'
+import { setIpc, openDirectory, saveFile } from './ipcRendererEvents'
 import { addImagesEvents, searchImagesEvent, selectedFilterEvent } from './images-ui'
 
 window.addEventListener('load', () => {
@@ -7,6 +7,7 @@ window.addEventListener('load', () => {
   searchImagesEvent()
   selectedFilterEvent()
   buttonEvent('open-dir', openDirectory)
+  buttonEvent('save-button', saveFile)
 })
 
 /**

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Pics</title>
+    <title>InstaPics</title>
     <link rel="stylesheet" type="text/css" href="../assets/css/photon.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
     <script type="text/javascript" src="lib/filterous2-2.0.0.min.js"></script>
@@ -84,7 +84,7 @@
                     Open folder
                   </button>
                 </div>
-                <button class="btn btn-default pull-right">
+                <button id="save-button" class="btn btn-default pull-right">
                   <span class="icon icon-download icon-text"></span>
                   Save
                 </button>
@@ -135,7 +135,7 @@
               </div>
             </header>
             <div class="image-container">
-              <img id="image-displayed" src="../assets/img/1.jpg">
+              <img id="image-displayed" data-original="../assets/img/1.jpg" src="../assets/img/1.jpg">
             </div>
           </div>
         </div>
