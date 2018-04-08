@@ -5,6 +5,10 @@
 			"path": "/Volumes/Miguel/Desktop/Pics"
 		}
 	],
+    "settings":
+    {
+        "tab_size": 2
+    },
     "SublimeLinter":
     {
         "linters":
