@@ -16,22 +16,14 @@ function setIpcMain (win) {
       properties: ['openDirectory']
     },
     (dir) => {
-      const images = []
       if (dir) {
-        fs.readdir(dir[0], (err, files) => {
-          if (err) throw err
-          files.forEach(f => {
-            if (isImage(f)) {
-              let imageFile = path.join(dir[0], f)
-              let stats = fs.statSync(imageFile)
-              let size = filesize(stats.size, {round: 0})
-              images.push({filename: f, src: `file://${imageFile}`, size: size})
-            }
-          })
-          event.sender.send('load-images', images)
-        })
+        loadImages(event, dir[0])
       }
     })
+  })
+
+  ipcMain.on('load-directory', (event, dir) => {
+    loadImages(event, dir)
   })
 
   ipcMain.on('open-save-dialog', (event, ext) => {
@@ -53,6 +45,31 @@ function setIpcMain (win) {
       message: info.message
     })
   })
+}
+
+/**
+ * load images on folder
+ * @param  {event} event triggered event
+ * @param  {string} dir   directory to load
+ */
+function loadImages (event, dir) {
+  const images = []
+
+
+  if (dir) {
+        fs.readdir(dir, (err, files) => {
+          if (err) throw err
+          files.forEach(f => {
+            if (isImage(f)) {
+              let imageFile = path.join(dir, f)
+              let stats = fs.statSync(imageFile)
+              let size = filesize(stats.size, {round: 0})
+              images.push({filename: f, src: `file://${imageFile}`, size: size})
+            }
+          })
+          event.sender.send('load-images', dir, images)
+        })
+      }
 }
 
 module.exports = setIpcMain

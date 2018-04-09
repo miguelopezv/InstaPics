@@ -1,17 +1,24 @@
 import { ipcRenderer, remote } from 'electron'
+import settings from 'electron-settings'
 import { addImagesEvents, selectFirstImage, clearImages, loadImages } from './images-ui'
 import { saveImage } from './filters'
 import path from 'path'
+import os from 'os'
 
 /**
  * Everything to be executed after load-images event
  */
 function setIpc () {
-  ipcRenderer.on('load-images', (event, images) => {
+  if (settings.has('directory')) {
+    ipcRenderer.send('load-directory', settings.get('directory'))
+  }
+
+  ipcRenderer.on('load-images', (event, dir, images) => {
     clearImages()
     loadImages(images)
     addImagesEvents()
     selectFirstImage()
+    settings.set('directory', dir)
   })
 
   ipcRenderer.on('save-image', (event, file) => {
@@ -46,7 +53,9 @@ function openPreferences () {
     show: false
   })
 
-  preferencesWindow.setParentWindow(mainWindow)
+  if (os.platform() !== 'win32') {
+    preferencesWindow.setParentWindow(mainWindow)
+  }
   preferencesWindow.once('ready-to-show', () => {
     preferencesWindow.show()
     preferencesWindow.focus()
