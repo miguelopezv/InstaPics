@@ -1,15 +1,18 @@
 'use strict'
 
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow, Tray } from 'electron'
 import devtools from './devtools'
 import handleErrors from './handleErrors'
 import setIpcMain from './ipcMainEvents'
+import os from 'os'
+import path from 'path'
 
 if (process.env.NODE_ENV === 'develop') {
   devtools()
 }
 
 global.win //eslint-disable-line
+global.tray //eslint-disable-line
 
 // All that is going to happen when the window is ready with the config
 app.on('ready', () => {
@@ -28,6 +31,19 @@ app.on('ready', () => {
   // this will run one time, when window is ready to show
   global.win.once('ready-to-show', () => {
     global.win.show()
+  })
+
+  let icon
+  if (os.platform == 'win32') {
+    icon = path.join(__dirname, 'assets', 'icons', 'tray-icon.ico')
+  } else {
+    icon = path.join(__dirname, 'assets', 'icons', 'tray-icon.png')
+  }
+
+  global.tray = new Tray(icon)
+  global.tray.setToolTip('InstaPics')
+  global.tray.on('click', () => {
+    global.win.isVisible() ? global.win.hide() : global.win.show()
   })
 
   // Content to be loaded inside the window
