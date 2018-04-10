@@ -8,14 +8,17 @@ function createMenu () {
     submenu: [
     {
       label: 'Open folder',
+      accelerator: 'CmdOrCtrl+O',
       click () { openDirectory() }
     },
     {
       label: 'Save',
+      accelerator: 'CmdOrCtrl+S',
       click () { saveFile() }
     },
     {
       label: 'Preferences',
+      accelerator: 'CmdOrCtrl+,',
       click () { openPreferences() }
     },
     {
@@ -28,6 +31,7 @@ function createMenu () {
     submenu: [
     {
       label: 'Print',
+      accelerator: 'CmdOrCtrl+P',
       click () { print() }
     },
     {
@@ -35,6 +39,7 @@ function createMenu () {
     },
     {
       label: 'Paste image',
+      accelerator: 'CmdOrCtrl+V',
       click () { pasteImage() }
     }]
   }]
