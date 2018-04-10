@@ -1,5 +1,5 @@
 import { setIpc, openDirectory, saveFile, openPreferences } from './main-window/ipcRendererEvents'
-import { addImagesEvents, searchImagesEvent, selectedFilterEvent } from './main-window/images-ui'
+import { addImagesEvents, searchImagesEvent, selectedFilterEvent, print } from './main-window/images-ui'
 
 window.addEventListener('load', () => {
   setIpc()
@@ -9,6 +9,7 @@ window.addEventListener('load', () => {
   buttonEvent('open-dir', openDirectory)
   buttonEvent('save-button', saveFile)
   buttonEvent('open-preferences', openPreferences)
+  buttonEvent('print-button', print)
 })
 
 /**

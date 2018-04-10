@@ -110,6 +110,13 @@ function loadImages (images) {
   })
 }
 
+/**
+ * Print image
+ */
+function print () {
+  window.print()
+}
+
 module.exports = {
   addImagesEvents: addImagesEvents,
   changeImage: changeImage,
@@ -117,5 +124,6 @@ module.exports = {
   selectedFilterEvent: selectedFilterEvent,
   searchImagesEvent: searchImagesEvent,
   clearImages: clearImages,
-  loadImages: loadImages
+  loadImages: loadImages,
+  print: print
 }
