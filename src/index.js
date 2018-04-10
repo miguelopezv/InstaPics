@@ -1,6 +1,6 @@
 'use strict'
 
-import { app, BrowserWindow, Tray } from 'electron'
+import { app, BrowserWindow, Tray, globalShortcut, protocol } from 'electron'
 import devtools from './devtools'
 import handleErrors from './handleErrors'
 import setIpcMain from './ipcMainEvents'
@@ -16,13 +16,26 @@ global.tray //eslint-disable-line
 
 // All that is going to happen when the window is ready with the config
 app.on('ready', () => {
+  protocol.registerFileProtocol('inst', (request, callback) => {
+      const url = request.url.substr(7)
+      callback({path: path.normalize(url)})
+    }, (err) => {
+      if (err) throw err
+    })
+
+
   global.win = new BrowserWindow({
     show: false,
     width: 800,
     height: 600,
-    title: 'Hola Mundo',
+    title: 'InstaPics',
     center: true,
     maximizable: false
+  })
+
+  globalShortcut.register('CmdOrCtrl+Alt+P', () => {
+    global.win.show()
+    global.win.focus()
   })
 
   handleErrors(global.win)
@@ -58,5 +71,5 @@ app.on('ready', () => {
 
 // Code to run just before quit
 app.on('before-quit', () => {
-  console.log('Saliendo')
+  globalShortcut.unregisterAll()
 })
