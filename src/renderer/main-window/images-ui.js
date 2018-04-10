@@ -15,6 +15,8 @@ function addImagesEvents () {
   })
 }
 
+// TODO: upload image to web service
+
 /**
  * set selected image
  * @param {} node the element to set as selected

@@ -1,4 +1,4 @@
-import { ipcRenderer, remote } from 'electron'
+import { ipcRenderer, remote, clipboard } from 'electron'
 import settings from 'electron-settings'
 import { addImagesEvents, selectFirstImage, clearImages, loadImages } from './images-ui'
 import { saveImage } from './filters'
@@ -83,10 +83,23 @@ function saveFile () {
   ipcRenderer.send('open-save-dialog', extension)
 }
 
+function pasteImage () {
+  const image = clipboard.readImage()
+  const data = image.toDataURL()
+  if (data.indexOf('data:image/png;base64') !== -1 && !image.isEmpty()) {
+    let mainImage = document.getElementById('image-displayed')
+    mainImage.src = data
+    mainImage.dataset.original = data
+  } else {
+    showDialog('error', 'InstaPIcs', 'No image on clipboard')
+  }
+}
+
 module.exports = {
   openDirectory: openDirectory,
   setIpc: setIpc,
   saveFile: saveFile,
   showDialog: showDialog,
-  openPreferences: openPreferences
+  openPreferences: openPreferences,
+  pasteImage: pasteImage
 }
