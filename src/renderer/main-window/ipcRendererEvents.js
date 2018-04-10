@@ -25,7 +25,14 @@ function setIpc () {
   ipcRenderer.on('save-image', (event, file) => {
     saveImage(file, (err) => {
       if (err) return showDialog('error', 'InstaPics', err.message)
-      showDialog('info', 'InstaPics', 'Image saved')
+      const notify = new Notification('InstaPics', { // eslint-disable-line
+        body: 'Image saved',
+        silent: false
+      })
+
+      notify.onclick = () => {
+        // clipboard.writeText
+      }
     })
   })
 }
