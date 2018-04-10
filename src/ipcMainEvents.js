@@ -55,21 +55,20 @@ function setIpcMain (win) {
 function loadImages (event, dir) {
   const images = []
 
-
   if (dir) {
-        fs.readdir(dir, (err, files) => {
-          if (err) throw err
-          files.forEach(f => {
-            if (isImage(f)) {
-              let imageFile = path.join(dir, f)
-              let stats = fs.statSync(imageFile)
-              let size = filesize(stats.size, {round: 0})
-              images.push({filename: f, src: `inst://${imageFile}`, size: size})
-            }
-          })
-          event.sender.send('load-images', dir, images)
-        })
-      }
+    fs.readdir(dir, (err, files) => {
+      if (err) throw err
+      files.forEach(f => {
+        if (isImage(f)) {
+          let imageFile = path.join(dir, f)
+          let stats = fs.statSync(imageFile)
+          let size = filesize(stats.size, {round: 0})
+          images.push({filename: f, src: `inst://${imageFile}`, size: size})
+        }
+      })
+      event.sender.send('load-images', dir, images)
+    })
+  }
 }
 
 module.exports = setIpcMain

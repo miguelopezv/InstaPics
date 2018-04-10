@@ -36,11 +36,8 @@ function saveButton () {
 
   saveButton.addEventListener('click', () => {
     if (prefsForm.reportValidity()) {
-
       const cipher = crypto.createCipher('aes192', 'InstaPics')
-      console.log("cipher", cipher);
       let encrypted = cipher.update(document.getElementById('cloudup-passwd').value)
-      console.log("encrypted", encrypted);
       encrypted += cipher.final('hex')
 
       settings.set('cloudup.user', document.getElementById('cloudup-user').value)

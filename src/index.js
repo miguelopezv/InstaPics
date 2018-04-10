@@ -17,12 +17,12 @@ global.tray //eslint-disable-line
 // All that is going to happen when the window is ready with the config
 app.on('ready', () => {
   protocol.registerFileProtocol('inst', (request, callback) => {
-      const url = request.url.substr(7)
-      callback({path: path.normalize(url)})
-    }, (err) => {
-      if (err) throw err
-    })
-
+    const url = request.url.substr(7)
+    // eslint-disable-next-line
+    callback({path: path.normalize(url)})
+  }, (err) => {
+    if (err) throw err
+  })
 
   global.win = new BrowserWindow({
     show: false,
@@ -47,7 +47,7 @@ app.on('ready', () => {
   })
 
   let icon
-  if (os.platform == 'win32') {
+  if (os.platform === 'win32') {
     icon = path.join(__dirname, 'assets', 'icons', 'tray-icon.ico')
   } else {
     icon = path.join(__dirname, 'assets', 'icons', 'tray-icon.png')
