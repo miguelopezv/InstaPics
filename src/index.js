@@ -1,7 +1,7 @@
 'use strict'
 
 import { app, BrowserWindow, Tray, globalShortcut, protocol } from 'electron'
-import devtools from './devtools'
+import devtools from './devTools'
 import handleErrors from './handleErrors'
 import setIpcMain from './ipcMainEvents'
 import os from 'os'
@@ -30,7 +30,8 @@ app.on('ready', () => {
     height: 600,
     title: 'InstaPics',
     center: true,
-    maximizable: false
+    maximizable: false,
+    icon: path.join(__dirname, 'assets', 'icons', 'main-icon.png') //icon for linux
   })
 
   globalShortcut.register('CmdOrCtrl+Alt+P', () => {

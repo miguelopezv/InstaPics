@@ -7,7 +7,9 @@
     "dev": "NODE_ENV=develop electron src/index.js",
     "lint": "standard",
     "start": "electron-forge start",
-    "package": "electron-forge package",
+    "package-mac": "electron-forge package --platform=darwin --arch=x64",
+    "package-win": "electron-forge package --platform=win32 --arch=ias32",
+    "package-linux": "electron-forge package --platform=linux --arch=x64",
     "make": "electron-forge make"
   },
   "repository": "https://github.com/miguelopezv/Pics",
@@ -39,7 +41,7 @@
           "squirrel"
         ],
         "darwin": [
-          "zip"
+          "dmg"
         ],
         "linux": [
           "deb",
@@ -47,7 +49,12 @@
         ]
       },
       "electronPackagerConfig": {
-        "packageManager": "yarn"
+        "packageManager": "yarn",
+        "asar": true,
+        "icon": "src/assets/icons/main-icon"
+      },
+      "electronInstallerDMG": {
+        "icon": "src/assets/icons/main-icon.icns"
       },
       "electronWinstallerConfig": {
         "name": "Pics"
