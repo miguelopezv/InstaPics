@@ -1,0 +1,1266 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"glo",
+				"globalShortcut"
+			],
+			[
+				"s",
+				"show"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"open",
+				"openPreferences"
+			],
+			[
+				"sa",
+				"saveFile"
+			],
+			[
+				"save",
+				"saveFile〔variable〕"
+			],
+			[
+				"paste",
+				"pasteImage"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"button",
+				"buttonEvent〔function〕"
+			],
+			[
+				"de",
+				"decrypted"
+			],
+			[
+				"clou",
+				"cloudup-user"
+			],
+			[
+				"cloud",
+				"cloudup.user"
+			],
+			[
+				"pre",
+				"prefsForm〔variable〕"
+			],
+			[
+				"load",
+				"loadImages〔function〕"
+			],
+			[
+				"cancel",
+				"cancelButton"
+			],
+			[
+				"preferen",
+				"preferencesWindow〔variable〕"
+			],
+			[
+				"prefere",
+				"preferencesWindow〔variable〕"
+			],
+			[
+				"prefer",
+				"preferencesWindow〔variable〕"
+			],
+			[
+				"main",
+				"main-window/"
+			],
+			[
+				"file",
+				"filename〔variable〕"
+			],
+			[
+				"set",
+				"setMainIpc〔class〕"
+			],
+			[
+				"relaunch",
+				"relaunchApp〔variable〕"
+			],
+			[
+				"rela",
+				"relaunchApp〔variable〕"
+			],
+			[
+				"show",
+				"showDialog〔variable〕"
+			],
+			[
+				"sho",
+				"showDialog〔variable〕"
+			],
+			[
+				"image",
+				"image〔variable〕"
+			],
+			[
+				"selec",
+				"selectFirstImage"
+			],
+			[
+				"a",
+				"addImagesEvents"
+			],
+			[
+				"add",
+				"addImagesEvent"
+			],
+			[
+				"o",
+				"oldImages"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"images",
+				"imagesList〔variable〕"
+			],
+			[
+				"quer",
+				"querySelectorAll"
+			],
+			[
+				"send",
+				"sendIpc"
+			],
+			[
+				"sele",
+				"selected〔variable〕"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"search",
+				"searchImagesEvent"
+			],
+			[
+				"sear",
+				"searchBox〔variable〕"
+			],
+			[
+				"cl",
+				"cl\tconsole.log"
+			],
+			[
+				"fr",
+				"for\tfor (…) {…}"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"electron",
+				"electronDebug"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"actu",
+				"actualKey"
+			],
+			[
+				"ne",
+				"nextLevel"
+			],
+			[
+				"ke",
+				"keys"
+			],
+			[
+				"re",
+				"returnRandomKey"
+			],
+			[
+				"get",
+				"getElementByKeyCode"
+			],
+			[
+				"e",
+				"equal"
+			],
+			[
+				"age",
+				"ageSanti"
+			],
+			[
+				"na",
+				"nameSanti"
+			],
+			[
+				"name",
+				"nameSacha"
+			],
+			[
+				"p",
+				"pgStarWars"
+			],
+			[
+				"tria",
+				"triangleArea"
+			],
+			[
+				"Mes",
+				"MessageDetailComponent\talias"
+			],
+			[
+				"mes",
+				"message-detail\tdirectory"
+			],
+			[
+				"O",
+				"ObservableArray\talias"
+			],
+			[
+				"ng",
+				"ngIf\tAngular 2 ngIf Snippet"
+			],
+			[
+				"MD",
+				"MD_DIALOG_DATA\talias"
+			],
+			[
+				"MdD",
+				"MdDialog\tclass"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"Prmi",
+				"Promise\tinterface"
+			],
+			[
+				"ge",
+				"getHeroes\tmethod"
+			],
+			[
+				"Hero",
+				"HeroesService"
+			],
+			[
+				"H",
+				"HeroesService\t(heroes.service.ts)"
+			],
+			[
+				"btn-out",
+				"btn-outline-primary \tBootstrap 4 Class"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"router",
+				"routerLink"
+			],
+			[
+				"com",
+				"components/"
+			],
+			[
+				"APP",
+				"APP_ROUTING\t(app.routes.ts)"
+			],
+			[
+				"app",
+				"app_routing\tconst"
+			],
+			[
+				"Ab",
+				"AboutComponent\tclass"
+			],
+			[
+				"ho",
+				"home.component.ts"
+			],
+			[
+				"RouterM",
+				"RouterModule\talias"
+			],
+			[
+				"navbar-",
+				"navbar-inverse \tBootstrap 3 Class"
+			],
+			[
+				"bo",
+				"bootstrap/"
+			],
+			[
+				"persona",
+				"personajes\t(body.component.ts)"
+			],
+			[
+				"btnou",
+				"btn-outline-primary \tBootstrap 4 Class"
+			],
+			[
+				"text-w",
+				"text-white \tBootstrap 4 Class"
+			],
+			[
+				"bg",
+				"bg-inverse \tBootstrap 4 Class"
+			],
+			[
+				"Heade",
+				"HeaderComponent"
+			],
+			[
+				"B",
+				"Batman\tinterface"
+			],
+			[
+				"co",
+				"console\tvar"
+			],
+			[
+				"me",
+				"mensaje"
+			],
+			[
+				"_get",
+				"_getFilterSave"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"widge",
+				"widgetTitle"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"box",
+				"box_content"
+			],
+			[
+				"backgourn",
+				"background-color"
+			],
+			[
+				"var",
+				"var_dump\t(index.php)"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"url",
+				"urlSection"
+			],
+			[
+				"cache",
+				"cacheFile"
+			],
+			[
+				"cac",
+				"cacheNameCleaned"
+			],
+			[
+				"the",
+				"theWholeArticles"
+			],
+			[
+				"tha",
+				"thaSite"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"err",
+				"error_reporting"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"Server",
+				"ServerAlias"
+			],
+			[
+				"fe",
+				"fecha_mat\t(invest.component.html)"
+			],
+			[
+				"fecha",
+				"fecha_mov\t(invest.component.html)"
+			],
+			[
+				"tran",
+				"transitMovements\t(invest.component.html)"
+			],
+			[
+				"_",
+				"_investService"
+			],
+			[
+				"upda",
+				"updateDate\tmethod"
+			],
+			[
+				"chart",
+				"chartIsLoading\tproperty"
+			],
+			[
+				"fund",
+				"fundIsLoading\tproperty"
+			],
+			[
+				"optio",
+				"optionChart"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ser",
+				"serieId\t(my-funds.component.ts)"
+			],
+			[
+				"selecte",
+				"selectedSerieId"
+			],
+			[
+				"Co",
+				"CodigoSerie"
+			],
+			[
+				"Mutu",
+				"MutualFundsService"
+			],
+			[
+				"M",
+				"MutualFundsService\t(mutual-funds.service.ts)"
+			],
+			[
+				"ini",
+				"initialDate\t(mutual-funds.service.ts)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 1884,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/ipcMainEvents.js",
+			"settings":
+			{
+				"buffer_size": 1719,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import fs from 'fs-extra'\n\n/**\n * Apply filter to the image\n * @param  {string} filter       name of the filter to apply\n * @param  {string} currentImage src of the image\n */\nfunction applyFilter (filter, currentImage) {\n    let imgObj = new Image() // eslint-disable-line\n  imgObj.src = currentImage.dataset.original\n\n    filterous.importImage(imgObj, {}) // eslint-disable-line\n    .applyInstaFilter(filter)\n    .renderHtml(currentImage)\n}\n\n/**\n * saveImage in destination folder\n * @param  {string}   filename src of the image\n * @param  {Function} callback function used as callback\n */\nfunction saveImage (filename, callback) {\n  let fileSrc = unescape(document.getElementById('image-displayed').src)\n  if (fileSrc.indexOf(';base64,') !== -1) {\n    fileSrc = fileSrc.replace(/^data:([A-Za-z-+/]+);base64,/, '')\n    fs.writeFile(filename, fileSrc, 'base64', callback)\n  } else {\n    fileSrc = fileSrc.replace('inst://', '')\n    fs.copy(fileSrc, filename, callback)\n  }\n}\n\n\n\nmodule.exports = {\n  applyFilter: applyFilter,\n  saveImage: saveImage\n}\n",
+			"file": "src/renderer/main-window/filters.js",
+			"file_size": 1048,
+			"file_write_time": 131678768340000000,
+			"settings":
+			{
+				"buffer_size": 1050,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Pics.sublime-project",
+			"settings":
+			{
+				"buffer_size": 266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/renderer/main-window/frontend.js",
+			"settings":
+			{
+				"buffer_size": 865,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "git",
+		"selected_items":
+		[
+			[
+				"git",
+				"Preferences: GitGutter Settings"
+			],
+			[
+				"todo",
+				"TodoReview: Project Files"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublimelin",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"pcl",
+				"Package Control: List Packages"
+			],
+			[
+				"pcu",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pc",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"show e",
+				"TypeScript: Show Error List"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"do",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"php",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"ta",
+				"Tasks: New document"
+			],
+			[
+				"bloc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"comm",
+				"Toggle Block Comment"
+			],
+			[
+				"error",
+				"TypeScript: Show Error List"
+			],
+			[
+				"forma",
+				"TypeScript: Format Document"
+			],
+			[
+				"format",
+				"TypeScript: Format Selection"
+			],
+			[
+				"list",
+				"TypeScript: Show Error List"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 148.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/Miguel/Desktop/Pics",
+		"/Volumes/Miguel/Desktop/Pics/src",
+		"/Volumes/Miguel/Desktop/Pics/src/assets",
+		"/Volumes/Miguel/Desktop/Pics/src/assets/css",
+		"/Volumes/Miguel/Desktop/Pics/src/assets/icons",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/main-window",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/prefs-window"
+	],
+	"file_history":
+	[
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/main-window/menu.js",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/main-window/ipcRendererEvents.js",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/index.html",
+		"/Volumes/Miguel/Desktop/Pics/src/assets/css/main.css",
+		"/Volumes/Miguel/Desktop/Pics/src/ipcMainEvents.js",
+		"/etc/hosts",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/main-window/images-ui.js",
+		"/Volumes/Miguel/Desktop/Pics/src/index.js",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/preferences.html",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/prefs-window/preferences-frontend.js",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/main-window/frontend.js",
+		"/Volumes/Miguel/Desktop/Pics/node_modules/electron/electron.d.ts",
+		"/Volumes/Miguel/Desktop/Pics/src/handleErrors.js",
+		"/Volumes/Miguel/Desktop/Pics/src/devTools.js",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/main-window/filters.js",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/images-ui.js",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/filters.js",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/frontend.js",
+		"/Volumes/Miguel/Desktop/Pics/src/renderer/ipcRendererEvents.js",
+		"/Volumes/Miguel/Desktop/Pics/Pics.sublime-project",
+		"/Volumes/Miguel/Desktop/Pics/.gitignore",
+		"/Volumes/Miguel/Desktop/Pics/.sublime-workspace",
+		"/Volumes/Miguel/Desktop/Pics/.jshintrc",
+		"/Volumes/Miguel/Desktop/Pics/package.json",
+		"/Volumes/Miguel/Desktop/Pics/yarn-error.log",
+		"/Volumes/Miguel/Desktop/resultado test.txt",
+		"/Volumes/Miguel/Desktop/resultado test",
+		"/Volumes/Miguel/Documents/Workspace/JavaScript/Simon/main.js",
+		"/Volumes/Miguel/Documents/Workspace/JavaScript/Simon/index.html",
+		"/Volumes/Miguel/Documents/Workspace/.jshintrc",
+		"/Volumes/Miguel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Miguel/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/group-detail/group-detail.module.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/group-detail/group-detail-routing.module.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/messages/messages.component.ts",
+		"/Volumes/Miguel/Desktop/simon.css",
+		"/Volumes/Miguel/Desktop/Platzom/package.json",
+		"/Volumes/Miguel/Desktop/Platzom/.babelrc",
+		"/Volumes/Miguel/Desktop/Platzom/LICENSE",
+		"/Volumes/Miguel/Desktop/Platzom/README.md",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/messages/message-detail/message-detail.component.html",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/messages/message-detail/message-detail.component.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/messages/message-compositor/message-compositor.component.html",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/messages/messages-routing.module.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/messages/messages.component.html",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/messages/messages.module.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/messages/message-detail/message-detail.component.css",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/comunica.mobile.ns/app/messages/message-detail/message-detail.component.scss",
+		"/Volumes/Miguel/.ssh/config",
+		"/Volumes/Miguel/.ssh/ssh_config",
+		"/Volumes/Miguel/.config/fish/config.fish",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/Plataforma/communicates/app-v2/Models/QuestionsPool.php",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/Plataforma/aulasamigas.com/src/modules/contents/tests/shared/components/questionsPool/questionsPool.component.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/Plataforma/aulasamigas.com/src/modules/contents/tests/shared/components/help/help.component.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/Plataforma/aulasamigas.com/src/modules/contents/tests/assessment.module.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/Plataforma/communicates/database/migrations/2018_02_14_153829_alter_questions_pool_table_add_report_fields.php",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/Plataforma/contents/storage/oauth-public.key",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/Plataforma/aulasamigas.com/config/api/api-endpoints.json",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/Plataforma/communicates/.env",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/Plataforma/contents/.env",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/Plataforma/aulasamigas.com/.env.json",
+		"/Volumes/Miguel/Desktop/file.json",
+		"/Volumes/Miguel/Library/Caches/Transmit/699DD174-2D46-49A8-A21D-E058A026F36D/165.227.112.143/var/www/podcast/public_html/wp-content/themes/musicplay/headers/header-style1.php",
+		"/Volumes/Miguel/Library/Caches/Transmit/AD647DE4-89D0-4D70-AAA3-EF5909F6819C/165.227.112.143/var/www/podcast/public_html/wp-content/themes/musicplay/index.php",
+		"/Volumes/Miguel/Library/Caches/Transmit/BE3A3FA0-CA30-461E-9C6D-ADE13EF65565/165.227.112.143/var/www/podcast/public_html/wp-content/themes/musicplay/page.php",
+		"/Volumes/Miguel/Library/Caches/Transmit/9E57F026-1ABE-4D29-807E-FDFE87DC9673/165.227.112.143/var/www/podcast/public_html/wp-content/themes/musicplay/single.php",
+		"/Volumes/Miguel/Library/Caches/Transmit/B92308B0-38B5-4C5A-9798-56EB4FB41B43/165.227.112.143/var/www/podcast/public_html/wp-content/themes/musicplay-child/framework/common/head.php",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/TOMi/tomi7/src/electron/http/services/test-service.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/TOMi/tomi7/src/electron/http/services/sync-service.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/TOMi/tomi7/src/electron/http/services/miaula-service.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/TOMi/tomi7/src/electron/http/services/content-service.ts",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/TOMi/tomi7/config/api/api-endpoints.json",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Aulas/TOMi/tomi7/.env.json",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/styles.css",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/services/heroes.service.ts",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/components/shared/navbar/navbar.component.html",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/components/heroes/heroes.component.ts",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/components/heroes/heroes.component.html",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/app.module.ts",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/components/home/home.component.html",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/components/about/about.component.html",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/app.routes.ts",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/app.component.html",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/components/shared/navbar/navbar.component.ts",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/components/home/home.component.ts",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/package.json",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/src/app/components/about/about.component.ts",
+		"/Volumes/Miguel/Desktop/Angular/2. SPA/.angular-cli.json",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/app/footer/footer.component.ts",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/styles.css",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/app/app.module.ts",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/app/app.component.html",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/app/components/body.component.html",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/app/components/body.component.ts",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/app/components/header.component.ts",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/index.html",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/tsconfig.app.json",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/app/app.component.ts",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/app/components/header.component.html",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/tslint.json",
+		"/Volumes/Miguel/Desktop/Angular/1. holamundo/src/app/app.component.css",
+		"/Volumes/Miguel/Downloads/app.ts",
+		"/Volumes/Miguel/Downloads/app.js",
+		"/Volumes/Miguel/Downloads/index.php",
+		"/Volumes/Miguel/Desktop/Ts/app.js",
+		"/Volumes/Miguel/Desktop/Ts/app.ts",
+		"/Volumes/Miguel/Desktop/Ts/app2.ts",
+		"/Volumes/Miguel/app2.ts",
+		"/Volumes/Miguel/Desktop/app.ts",
+		"/Volumes/Miguel/Desktop/app.js",
+		"/Volumes/Miguel/Desktop/index.html",
+		"/Volumes/Miguel/Desktop/test5/index.html",
+		"/Volumes/Miguel/Desktop/test5/.editorconfig",
+		"/Volumes/Miguel/.config/yarn/global/package.json",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-diariolaverdad/views/_home_element_main.phtml",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-diariolaverdad/views/_home_element_extra.phtml",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-diariolaverdad/views/_home_element_direct_image.phtml",
+		"/Volumes/Miguel/Library/Caches/Transmit/1B50D53B-9EC8-458B-BF0B-57AFA4165A64/165.227.112.143/var/www/podcast/public_html/wp-content/themes/musicplay-child/framework/common/head.php",
+		"/Volumes/Miguel/.brew",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-americamonumental/views/_header.phtml",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-americamonumental/views/index_v8.phtml",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-americamonumental/models/Scrapper.php",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-americamonumental/vendor/sunra/php-simple-html-dom-parser/Src/Sunra/PhpSimple/simplehtmldom_1_5/simple_html_dom.php",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-americamonumental/config/app.php",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-diariolaverdad/tmp/home_section",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-diariolaverdad/public/index.php",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-diariolaverdad/config/app.php",
+		"/Volumes/Miguel/Documents/Docs/Trabajo/Multiplica/Sindyk/sindyk-diariolaverdad/vendor/sunra/php-simple-html-dom-parser/Src/Sunra/PhpSimple/simplehtmldom_1_5/simple_html_dom.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Volumes/Miguel/Desktop/Pics/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"file",
+			"user",
+			"[0]",
+			"win",
+			"type",
+			"[type]",
+			"error",
+			"addImagesEvent",
+			"addImagesEvents",
+			"\"",
+			"true",
+			"5",
+			"1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1884,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								928,
+								928
+							]
+						],
+						"settings":
+						{
+							"SL.23.region_keys":
+							[
+							],
+							"SL.43.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 321.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/ipcMainEvents.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1558,
+								1558
+							]
+						],
+						"settings":
+						{
+							"SL.28.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 304.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/renderer/main-window/filters.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								977,
+								977
+							]
+						],
+						"settings":
+						{
+							"SL.25.region_keys":
+							[
+							],
+							"SL.46.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Pics.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/renderer/main-window/frontend.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								596,
+								596
+							]
+						],
+						"settings":
+						{
+							"SL.17.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"SL.30.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"auto_complete": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 114.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.errorlist":
+	{
+		"height": 120.0
+	},
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Pics.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"heroecompo",
+				"src/app/components/heroes/heroes.component.ts"
+			],
+			[
+				"herocom",
+				"src/app/components/heroes/heroes.component.ts"
+			],
+			[
+				"",
+				"src/app/services/heroes.service.ts"
+			],
+			[
+				"heroest",
+				"src/app/components/heroes/heroes.component.ts"
+			],
+			[
+				"app.m",
+				"src/app/app.module.ts"
+			],
+			[
+				"v8",
+				"views/index_v8.phtml"
+			],
+			[
+				"scra",
+				"sindyk-americamonumental/models/Scrapper.php"
+			],
+			[
+				"sch",
+				"models/Scrapper.php"
+			],
+			[
+				"scrapp",
+				"models/Scrapper.php"
+			],
+			[
+				"mutu",
+				"src/app/_services/mutual-funds.service.ts"
+			],
+			[
+				"mutual",
+				"src/app/_services/mutual-funds.service.ts"
+			],
+			[
+				"routi",
+				"src/app/_modules/app-routing.module.ts"
+			],
+			[
+				"routin",
+				"src/app/_modules/app-routing.module.ts"
+			],
+			[
+				"routts",
+				"node_modules/@angular/router/src/router.d.ts"
+			],
+			[
+				"const",
+				"src/app/_models/constants.ts"
+			],
+			[
+				"costant.ts",
+				"src/app/_models/constants.ts"
+			],
+			[
+				"constant.ts",
+				"src/app/_models/constants.ts"
+			],
+			[
+				"advertiseme",
+				"src/app/_components/advertisement/advertisement.component.html"
+			],
+			[
+				"dashcomht",
+				"src/app/_components/dashboard/dashboard.component.html"
+			],
+			[
+				"dashboar",
+				"src/app/_components/dashboard/dashboard.component.ts"
+			],
+			[
+				"investment",
+				"src/app/_components/investment/investment.component.html"
+			],
+			[
+				"investmen",
+				"src/app/_components/investment/investment.component.scss"
+			],
+			[
+				"dashboardcom",
+				"src/app/_components/dashboard/dashboard.component.html"
+			],
+			[
+				"portfolio",
+				"src/app/_components/portfolio/portfolio.component.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Pics/Pics.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -2,12 +2,76 @@
   "name": "Pics",
   "version": "1.0.0",
   "description": "Electron app to visualize photos",
-  "main": "index.js",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=develop electron src/index.js",
+    "lint": "standard",
+    "test": "ava tests/test-*.js",
+    "start": "electron-forge start",
+    "package-mac": "electron-forge package --platform=darwin --arch=x64",
+    "package-win": "electron-forge package --platform=win32 --arch=ias32",
+    "package-linux": "electron-forge package --platform=linux --arch=x64",
+    "make": "electron-forge make"
+  },
   "repository": "https://github.com/miguelopezv/Pics",
   "author": "Miguel López <miguelopezv@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "electron": "^1.8.8"
+    "electron-compile": "^6.4.2",
+    "electron-debug": "^1.5.0",
+    "electron-settings": "^3.1.4",
+    "electron-squirrel-startup": "^1.0.0",
+    "filesize": "^3.6.1",
+    "fs.extra": "^1.3.2",
+    "is-image": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "devtron": "^1.4.0",
+    "electron-forge": "^5.1.2",
+    "electron-prebuilt-compile": "1.8.4",
+    "spectron": "^3.8.0",
+    "standard": "^11.0.1"
+  },
+  "config": {
+    "forge": {
+      "make_targets": {
+        "win32": [
+          "squirrel"
+        ],
+        "darwin": [
+          "dmg"
+        ],
+        "linux": [
+          "deb",
+          "rpm"
+        ]
+      },
+      "electronPackagerConfig": {
+        "packageManager": "yarn",
+        "asar": true,
+        "icon": "src/assets/icons/main-icon"
+      },
+      "electronInstallerDMG": {
+        "icon": "src/assets/icons/main-icon.icns"
+      },
+      "electronWinstallerConfig": {
+        "name": "Pics"
+      },
+      "electronInstallerDebian": {},
+      "electronInstallerRedhat": {},
+      "github_repository": {
+        "owner": "",
+        "name": ""
+      },
+      "windowsStoreConfig": {
+        "packageName": "",
+        "name": "Pics"
+      }
+    }
   }
 }
