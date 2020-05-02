@@ -933,6 +933,7 @@ babel-plugin-transform-es2015-modules-umd@^6.23.0:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
+
 babel-plugin-transform-es2015-object-super@^6.22.0:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-object-super/-/babel-plugin-transform-es2015-object-super-6.24.1.tgz#24cef69ae21cb83a7f8603dad021f572eb278f8d"
@@ -964,6 +965,7 @@ babel-plugin-transform-es2015-spread@^6.1.4, babel-plugin-transform-es2015-sprea
   dependencies:
     babel-runtime "^6.22.0"
 
+
 babel-plugin-transform-es2015-sticky-regex@^6.0.2, babel-plugin-transform-es2015-sticky-regex@^6.22.0, babel-plugin-transform-es2015-sticky-regex@^6.8.0:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-sticky-regex/-/babel-plugin-transform-es2015-sticky-regex-6.24.1.tgz#00c1cdb1aca71112cdf0cf6126c2ed6b457ccdbc"
@@ -971,6 +973,7 @@ babel-plugin-transform-es2015-sticky-regex@^6.0.2, babel-plugin-transform-es2015
     babel-helper-regex "^6.24.1"
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
+
 
 babel-plugin-transform-es2015-template-literals@^6.22.0:
   version "6.22.0"
